@@ -1,4 +1,7 @@
 /* Your styles here */
+body{
+    font-family: "Poppins";
+}
 header{
     background-color: black;
     height: 40%
@@ -13,19 +16,21 @@ main{
     text-align: center;
 }
 h1{
-    font-size: 2.5em;
+    font-size: 2em;
     color: rgb(40, 164, 164);
-    margin: 40px;
+    margin: 30px;
+    
     
 }
 h2{
     color: rgb(40, 164, 164);
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 40px;
 }
 p{
-    font-size: 1.5em;
-    margin: 40px;
+    font-size: 1.3em;
+    text-align: center;
+    margin: 30px;
 
 }
 
@@ -39,6 +44,15 @@ p{
     background-repeat: no-repeat;
     background-position: center;
     
+}
+.sectionTre{
+    color: white;
+}
+.sectionTre h1{
+    color: white;
+}
+.sectionTre h2{
+    color: white;
 }
 .btn{
     background-color: orange;
@@ -55,7 +69,7 @@ main img{
 }
 .schede{
     width: 80%;
-    height: 90vw;
+    height: 100vw;
     margin: 10px 10%;
     border: solid 1px lightgray;
     
