@@ -8,3 +8,66 @@ header{
     margin: 5% 30%
     
 }
+main{
+    
+    text-align: center;
+}
+h1{
+    font-size: 2.5em;
+    color: rgb(40, 164, 164);
+    margin: 40px;
+    
+}
+h2{
+    color: rgb(40, 164, 164);
+    font-size: 2em;
+    margin: 40px;
+}
+p{
+    font-size: 1.5em;
+    margin: 40px;
+
+}
+
+
+.sectionUno{
+    height: 85vh;
+    box-sizing: border-box;
+    max-width: 100%;    
+    background-image: url(/images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.btn{
+    background-color: orange;
+    width: 100px;
+}
+.article{
+    padding: 40px 20%;
+}
+main img{
+    border-radius: 50%;
+}
+.sectionTre{
+    background-color: rgb(180, 18, 18);
+}
+.schede{
+    width: 80%;
+    height: 90vw;
+    margin: 10px 10%;
+    border: solid 1px lightgray;
+    
+}
+.content{
+    height: 250px;
+}
+.immag{
+    width: 100%;
+    
+}
+.testo{
+    text-align: center;
+}
+
