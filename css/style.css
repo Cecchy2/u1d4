@@ -26,27 +26,25 @@ main{
 h1{
     font-size: 2em;
     color: #25a2c3;
-    margin: 30px;
     font-family: Montserrat (bold);
+    line-height:1.5
     
     
 }
 h2{
     color: #25a2c3;
     font-size: 1.5em;
-    margin: 40px;
     font-family: Montserrat (bold);
 }
 p{
     font-size: 1.3em;
     text-align: center;
-    margin: 30px;
 
 }
 
 
 .sectionUno{
-    height: 130vh;
+    height: 160vh;
     box-sizing: border-box;
     max-width: 100%;    
     background-image: url(/images/banner.jpg);
@@ -79,13 +77,13 @@ main img{
 }
 .schede{
     width: 80%;
-    height: 120vw;
+    height: 90vw;
     margin: 50px 10%;
     border: solid 1px lightgray;
     
 }
 .content{
-    height: 1600px;
+    height: 1500px;
 }
 .immag{
     width: 100%;
@@ -93,5 +91,9 @@ main img{
 }
 .testo{
     text-align: center;
+}
+.contattaci{
+    height: auto;
+
 }
 
