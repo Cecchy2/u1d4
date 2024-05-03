@@ -1,7 +1,7 @@
 /* Your styles here */
 body{
     
-    font-family:"Open Sans", sans-serif;
+    font-family:"Open Sans";
     font-size: 1.2rem;
     color: #393d41 ;
     line-height: 1.65;
@@ -45,7 +45,7 @@ p{
 
 
 .sectionUno{
-    height: 60vw;   
+    height: 70vw;   
     background-image: url(/images/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -69,7 +69,7 @@ p{
 .bottone{
     background-color: #f04c2f ;
     padding: 12px 28px;
-    border-radius: 10%;
+    border-radius: 5%;
     border: none;
     color: white;
     font-family:Montserrat (bold)  ;
@@ -102,5 +102,19 @@ main img{
 .contattaci{
     height: auto;
 
+}
+footer{
+    color: white;
+    background-color: #25a2c3;
+    height: 40vw;
+    text-align: center;
+    
+    border-bottom: solid 1px white;
+}
+footer h1{
+    color: white;
+}
+.contacts a{
+    color: #c8e7f0;
 }
 
