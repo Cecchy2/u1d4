@@ -44,15 +44,18 @@ p{
 
 
 .sectionUno{
-    height: 160vh;
-    box-sizing: border-box;
-    max-width: 100%;    
+    height: 60vw;   
     background-image: url(/images/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    
+    background-position: center;   
 }
+.contenuto{
+    padding-top: 10%;
+
+}
+
+
 .sectionTre{
     color: white;
 }
@@ -62,13 +65,14 @@ p{
 .sectionTre h2{
     color: white;
 }
-.btn{
+.bottone{
     background-color: orange;
-    width: 100px;
+    padding: 12px 28px;
+    border-radius: 10%;
+    border: none;
+    color: white;
 }
-.article{
-    padding: 40px 20%;
-}
+
 main img{
     border-radius: 50%;
 }
@@ -76,14 +80,15 @@ main img{
     background-color: rgb(180, 18, 18);
 }
 .schede{
+    padding-bottom: 15%;
     width: 80%;
-    height: 90vw;
-    margin: 50px 10%;
+    height: auto;
+    margin: 10% 10%;
     border: solid 1px lightgray;
     
 }
 .content{
-    height: 1500px;
+    height: auto;
 }
 .immag{
     width: 100%;
