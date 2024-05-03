@@ -1,49 +1,38 @@
 /* Your styles here */
-body{
-    
+body{   
     font-family:"Open Sans";
     font-size: 1.2rem;
     color: #393d41 ;
     line-height: 1.65;
-
-
 }
 header{
     background-color: black;
-    height: 40%;
-    
-    
+    height: 40%;   
 }
 #logo{
     width: 30%;
-    margin: 5% 30%
-    
+    margin: 5% 30%    
 }
-main{
-    
-    text-align: center;
-    
+main{   
+    text-align: center;    
 }
 h1{
     font-size: 2em;
     color: #25a2c3;
-    font-family: "Open Sans", sans-serif;
-    line-height:1.5
-    
-    
+    font-family: "Montserrat", sans-serif;
+    line-height:1.5 ; 
+    font-weight: 700;  
 }
 h2{
     color: #25a2c3;
     font-size: 1.5em;
-    font-family: Montserrat (bold);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
 }
 p{
     font-size: 1.3em;
     text-align: center;
-
 }
-
-
 .sectionUno{
     height: 70vw;   
     background-image: url(/images/banner.jpg);
@@ -53,10 +42,7 @@ p{
 }
 .contenuto{
     padding-top: 10%;
-
 }
-
-
 .sectionTre{
     color: white;
 }
@@ -74,7 +60,6 @@ p{
     color: white;
     font-family:Montserrat (bold)  ;
 }
-
 main img{
     border-radius: 50%;
 }
@@ -86,35 +71,42 @@ main img{
     width: 80%;
     height: auto;
     margin: 10% 10%;
-    border: solid 1px #dee1e3;
-    
+    border: solid 1px #dee1e3;    
 }
 .content{
     height: auto;
 }
 .immag{
-    width: 100%;
-    
+    width: 100%;    
 }
 .testo{
     text-align: center;
 }
 .contattaci{
     height: auto;
-
 }
 footer{
     color: white;
     background-color: #25a2c3;
-    height: 40vw;
+    height: 70vw;
     text-align: center;
-    
     border-bottom: solid 1px white;
 }
 footer h1{
     color: white;
+    padding:4%;
 }
 .contacts a{
     color: #c8e7f0;
 }
+.copyright{
+    margin: 10% 20%;
+    padding: 7%;
+    border-top: 1px solid white;
+}
+.copyright a{
+    color: white;
+    
+}
+
 
