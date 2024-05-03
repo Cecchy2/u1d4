@@ -52,6 +52,7 @@ p{
 .sectionTre h2{
     color: white;
 }
+
 .bottone{
     background-color: #f04c2f ;
     padding: 12px 28px;
@@ -59,6 +60,9 @@ p{
     border: none;
     color: white;
     font-family:Montserrat (bold)  ;
+}
+button:hover{
+    cursor: pointer;
 }
 main img{
     border-radius: 50%;
