@@ -62,6 +62,9 @@ button:hover{
     min-width: 50%;
     float: left;
 }
+.cerchio{
+    height: 85vh;
+}
 .testo{
     text-align: left;
     float: right;
@@ -76,3 +79,30 @@ button:hover{
     margin-left: 10%;
     
 }
+.red{
+    height: 40vh;
+    background-color: #e22d0e;
+}
+#testimonianze{
+    height: 100%;
+    text-align: center;
+    padding: 5%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    color: white;
+}
+#testimonianze h1{
+    color: white;
+    padding-bottom: 2%;
+}
+#testimonianze h2{
+    color: white;
+    padding-bottom: 2%;
+}
+h5{
+    font-size: 0.7em;
+}
+
+    
+        
