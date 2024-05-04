@@ -1,0 +1,14 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    color: #393d41;
+}
+h1 h2 h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+}
+header{
+    height: 20vh;
+}
