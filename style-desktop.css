@@ -4,11 +4,46 @@ body{
     line-height: 1.65;
     color: #393d41;
 }
-h1 h2 h3{
+h1{
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     line-height: 1.5;
+    color: #25a2c3;
+    font-size: 1.5em;
 }
 header{
     height: 20vh;
+    background-color: black;
+}
+header img{
+    height: 10vh;
+    margin: 30px;
+    padding-left: 40px;
+}
+main{
+    text-align: center;
+}
+.partiamo{
+    height: 70vh;
+    background-image: url(/images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 10% 20%;
+    box-sizing: border-box;
+}
+button{
+    background-color: #f04c2f ;
+    border-radius: 5%;
+    border: none;
+    color: white;
+    font-family:Montserrat (bold)  ;
+    box-sizing: border-box;
+    height: 40px;
+    width: 145px;
+    margin-top: 5%;
+    font-size: 1rem;
+}
+button:hover{
+    cursor: pointer;
 }
