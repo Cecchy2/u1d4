@@ -44,7 +44,7 @@ button{
     border-radius: 5%;
     border: none;
     color: white;
-    font-family:Montserrat (bold)  ;
+    font-family: "Montserrat", sans-serif;
     box-sizing: border-box;
     height: 40px;
     width: 145px;
@@ -99,9 +99,23 @@ button:hover{
 #testimonianze h2{
     color: white;
     padding-bottom: 2%;
+    font-style: italic;
+    font-family:"Open Sans", sans-serif ;
 }
 h5{
     font-size: 0.7em;
+    font-family: "Montserrat", sans-serif;
+}
+#cards{
+    
+    height: 100vh;
+}
+.card{
+    width: 300px;
+    height: 320px;
+    display: inline-block;
+    padding: 10% 2%;
+
 }
 
     
