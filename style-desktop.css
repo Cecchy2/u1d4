@@ -106,16 +106,18 @@ h5{
     font-size: 0.7em;
     font-family: "Montserrat", sans-serif;
 }
-#cards{
-    
-    height: 100vh;
+#cards{    
+    height: 90vh;
 }
 .card{
-    width: 300px;
-    height: 320px;
+    width: 310px;
+    height: 330px;
     display: inline-block;
-    padding: 10% 2%;
-
+    margin: 10vw 1vw;
+    border: solid 1px #dee1e3;   
+}
+.card img{   
+    width: 100%;
 }
 
     
