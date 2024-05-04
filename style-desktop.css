@@ -13,7 +13,7 @@ h1{
 }
 h2{
     font-family: "Montserrat", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1.5;
     color: #25a2c3;
     font-size: 1em;
@@ -54,22 +54,19 @@ button{
 button:hover{
     cursor: pointer;
 }
-.cerchio{
-    
-    
-}
 .notebook{
     min-width: 50%;
     float: left;
 }
 .cerchio{
-    height: 85vh;
+    height: 100vh;
 }
 .testo{
     text-align: left;
     float: right;
     padding: 10% 10% 10% 0;
     max-width: 40%;
+    line-height: 2.4;
 }
 .notebook img{
     border-radius: 50%;
@@ -88,30 +85,34 @@ button:hover{
     text-align: center;
     padding: 5%;
     font-family: "Montserrat", sans-serif;
-    font-weight: 700;
+    
     line-height: 1.5;
     color: white;
 }
 #testimonianze h1{
     color: white;
     padding-bottom: 2%;
+    font-weight: 700;
 }
 #testimonianze h2{
     color: white;
     padding-bottom: 2%;
     font-style: italic;
     font-family:"Open Sans", sans-serif ;
+    font-weight: 300;
 }
+
 h5{
-    font-size: 0.7em;
+    font-size: 0.5em;
     font-family: "Montserrat", sans-serif;
+    font-weight: 300;
 }
 #cards{    
     height: 90vh;
 }
 .card{
-    width: 310px;
-    height: 330px;
+    width: 25vw;
+    height: 30vw;
     display: inline-block;
     margin: 10vw 1vw;
     border: solid 1px #dee1e3;   
