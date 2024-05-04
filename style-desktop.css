@@ -11,6 +11,13 @@ h1{
     color: #25a2c3;
     font-size: 1.5em;
 }
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #25a2c3;
+    font-size: 1em;
+}
 header{
     height: 20vh;
     background-color: black;
@@ -46,4 +53,26 @@ button{
 }
 button:hover{
     cursor: pointer;
+}
+.cerchio{
+    
+    
+}
+.notebook{
+    min-width: 50%;
+    float: left;
+}
+.testo{
+    text-align: left;
+    float: right;
+    padding: 10% 10% 10% 0;
+    max-width: 40%;
+}
+.notebook img{
+    border-radius: 50%;
+    max-width: 30%;
+    min-width: fit-content;
+    padding:10% 0 10%  ;
+    margin-left: 10%;
+    
 }
