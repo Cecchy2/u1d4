@@ -23,7 +23,7 @@ header{
     background-color: black;
 }
 header img{
-    height: 10vh;
+    height: 8vh;
     margin: 30px;
     padding-left: 40px;
 }
@@ -64,9 +64,9 @@ button:hover{
 .testo{
     text-align: left;
     float: right;
-    padding: 10% 10% 10% 0;
+    padding: 7% 10% 10% 0;
     max-width: 40%;
-    line-height: 2.4;
+    line-height: 2.1;
 }
 .notebook img{
     border-radius: 50%;
@@ -108,17 +108,54 @@ h5{
     font-weight: 300;
 }
 #cards{    
-    height: 90vh;
+    height: 70vh;
 }
 .card{
-    width: 25vw;
-    height: 30vw;
+    width: 20vw;
+    height: 50vh;
     display: inline-block;
     margin: 10vw 1vw;
     border: solid 1px #dee1e3;   
 }
 .card img{   
     width: 100%;
+}
+.cardText h3{
+    font-family: "Montserrat", sans-serif;      
+    color: #25a2c3;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+.cardText p{
+    font-size: 0.7em;
+    padding-top: 5%;
+}
+footer{
+    height: 30vw;
+    background-color:hsl(193, 80%, 36%) ;
+    margin-top: 10%;
+}
+
+#contattaci{
+    width: 21vw;
+    height: 60vh;
+    box-sizing: border-box;
+    margin: 1% 40%;
+    padding-top: 5%;
+    color: white;
+}
+#contattaci h1{
+    color: white;
+    padding-bottom: 10%;
+}
+
+p a{
+    color: white;
+}
+#contattaci hr{
+    background-color: white;
+    margin: 10% 0 10% 0;
+    
 }
 
     
